@@ -1,0 +1,447 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>private的失效情况 | orochi</title>
+  <meta name="author" content="zhaowenlei">
+  
+  <meta name="description" content="技术整理归档">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="private的失效情况"/>
+  <meta property="og:site_name" content="orochi"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.ico" rel="icon" type="image/x-ico">
+  <link rel="alternate" href="http://zipperary.com/atom.xml" title="orochi" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="//libs.baidu.com/jquery/1.8.0/jquery.min.js"></script>
+</head>
+
+
+<body>
+  <header id="header" class="inner">
+<div class="alignleft">
+  <h1><a href="/">orochi</a></h1>
+  <h2><a href="/">I&#39;m a 博客</a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">首页</a></li>
+    
+      <li><a href="/archives">归档</a></li>
+    
+      <li><a href="/about">关于</a></li>
+    
+      <li><a href="/tools">工具</a></li>
+    
+	<li> <a href="/atom.xml">RSS</a> </li>
+<li> <a title="把这个链接拖到你的Chrome收藏夹工具栏中" href='javascript:(function() {
+	function c() {
+		var e = document.createElement("link");
+		e.setAttribute("type", "text/css");
+		e.setAttribute("rel", "stylesheet");
+		e.setAttribute("href", f);
+		e.setAttribute("class", l);
+		document.body.appendChild(e)
+	}
+ 
+	function h() {
+		var e = document.getElementsByClassName(l);
+		for (var t = 0; t < e.length; t++) {
+			document.body.removeChild(e[t])
+		}
+	}
+ 
+	function p() {
+		var e = document.createElement("div");
+		e.setAttribute("class", a);
+		document.body.appendChild(e);
+		setTimeout(function() {
+			document.body.removeChild(e)
+		}, 100)
+	}
+ 
+	function d(e) {
+		return {
+			height : e.offsetHeight,
+			width : e.offsetWidth
+		}
+	}
+ 
+	function v(i) {
+		var s = d(i);
+		return s.height > e && s.height < n && s.width > t && s.width < r
+	}
+ 
+	function m(e) {
+		var t = e;
+		var n = 0;
+		while (!!t) {
+			n += t.offsetTop;
+			t = t.offsetParent
+		}
+		return n
+	}
+ 
+	function g() {
+		var e = document.documentElement;
+		if (!!window.innerWidth) {
+			return window.innerHeight
+		} else if (e && !isNaN(e.clientHeight)) {
+			return e.clientHeight
+		}
+		return 0
+	}
+ 
+	function y() {
+		if (window.pageYOffset) {
+			return window.pageYOffset
+		}
+		return Math.max(document.documentElement.scrollTop, document.body.scrollTop)
+	}
+ 
+	function E(e) {
+		var t = m(e);
+		return t >= w && t <= b + w
+	}
+ 
+	function S() {
+		var e = document.createElement("audio");
+		e.setAttribute("class", l);
+		e.src = i;
+		e.loop = false;
+		e.addEventListener("canplay", function() {
+			setTimeout(function() {
+				x(k)
+			}, 500);
+			setTimeout(function() {
+				N();
+				p();
+				for (var e = 0; e < O.length; e++) {
+					T(O[e])
+				}
+			}, 15500)
+		}, true);
+		e.addEventListener("ended", function() {
+			N();
+			h()
+		}, true);
+		e.innerHTML = " <p>If you are reading this, it is because your browser does not support the audio element. We recommend that you get a new browser.</p> <p>";
+		document.body.appendChild(e);
+		e.play()
+	}
+ 
+	function x(e) {
+		e.className += " " + s + " " + o
+	}
+ 
+	function T(e) {
+		e.className += " " + s + " " + u[Math.floor(Math.random() * u.length)]
+	}
+ 
+	function N() {
+		var e = document.getElementsByClassName(s);
+		var t = new RegExp("\\b" + s + "\\b");
+		for (var n = 0; n < e.length; ) {
+			e[n].className = e[n].className.replace(t, "")
+		}
+	}
+ 
+	var e = 30;
+	var t = 30;
+	var n = 350;
+	var r = 350;
+	var i = "//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake.mp3";
+	var s = "mw-harlem_shake_me";
+	var o = "im_first";
+	var u = ["im_drunk", "im_baked", "im_trippin", "im_blown"];
+	var a = "mw-strobe_light";
+	var f = "//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css";
+	var l = "mw_added_css";
+	var b = g();
+	var w = y();
+	var C = document.getElementsByTagName("*");
+	var k = null;
+	for (var L = 0; L < C.length; L++) {
+		var A = C[L];
+		if (v(A)) {
+			if (E(A)) {
+				k = A;
+				break
+			}
+		}
+	}
+	if (A === null) {
+		console.warn("Could not find a node of the right size. Please try a different page.");
+		return
+	}
+	c();
+	S();
+	var O = [];
+	for (var L = 0; L < C.length; L++) {
+		var A = C[L];
+		if (v(A)) {
+			O.push(A)
+		}
+	}
+})()    '>High一下</a> </li>
+
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      <img src="">
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2016-05-08T02:57:35.000Z"><a href="/2016/05/08/private的失效情况/">2016-05-08</a></time>
+      
+      
+  
+    <h1 class="title">private的失效情况</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h2 id="Java中的private修饰符失效了？"><a href="#Java中的private修饰符失效了？" class="headerlink" title="Java中的private修饰符失效了？"></a>Java中的private修饰符失效了？</h2><p>这篇文章主要介绍了Java中的private修饰符失效了？本文讨论在一个内部类里面可以访问外部类的private成员变量或者方法的一种现象,需要的朋友可以参考下</p>
+<p>在Java编程中，使用private关键字修饰了某个成员，只有这个成员所在的类和这个类的方法可以使用，其他的类都无法访问到这个private成员。</p>
+<p>上面描述了private修饰符的基本职能，今天来研究一下private功能失效的情况。</p>
+<h3 id="Java内部类"><a href="#Java内部类" class="headerlink" title="Java内部类"></a>Java内部类</h3><pre><code>在Java中相信很多人都用过内部类，Java允许在一个类里面定义另一个类，类里面的类就是内部类，也叫做嵌套类。一个简单的内部类实现可以如下
+</code></pre><p>复制代码代码如下:<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">OuterClass</span> </span>&#123;</div><div class="line">    <span class="class"><span class="keyword">class</span> <span class="title">InnerClass</span></span>&#123;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>今天的问题和Java内部类相关，只涉及到部分和本文研究相关的内部类知识，具体关于Java内部类后续的文章会介绍。</p>
+<h3 id="第一次失效"><a href="#第一次失效" class="headerlink" title="第一次失效?"></a>第一次失效?</h3><p>一个我们在编程中经常用到的场景，就是在一个内部类里面访问外部类的private成员变量或者方法，这是可以的。如下面的代码实现。<br>复制代码代码如下:<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">OuterClass</span> </span>&#123;</div><div class="line">  <span class="keyword">private</span> String language = <span class="string">"en"</span>;</div><div class="line">  <span class="keyword">private</span> String region = <span class="string">"US"</span>;</div><div class="line"></div><div class="line"></div><div class="line">  <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">InnerClass</span> </span>&#123;</div><div class="line">      <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">printOuterClassPrivateFields</span><span class="params">()</span> </span>&#123;</div><div class="line">          String fields = <span class="string">"language="</span> + language + <span class="string">";region="</span> + region;</div><div class="line">          System.out.println(fields);</div><div class="line">      &#125;</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</div><div class="line">      OuterClass outer = <span class="keyword">new</span> OuterClass();</div><div class="line">      OuterClass.InnerClass inner = outer.new InnerClass();</div><div class="line">      inner.printOuterClassPrivateFields();</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>这是为什么呢，不是private修饰的成员只能被成员所述的类才能访问么？难道private真的失效了么？</p>
+<h3 id="编译器在捣鬼？"><a href="#编译器在捣鬼？" class="headerlink" title="编译器在捣鬼？"></a>编译器在捣鬼？</h3><p>我们使用javap命令查看一下生成的两个class文件<br>OuterClass的反编译结果</p>
+<p>码代码如下:<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div></pre></td><td class="code"><pre><div class="line">$ javap -c  OuterClass</div><div class="line">Compiled from "OuterClass.java"</div><div class="line">public class OuterClass extends java.lang.Object&#123;</div><div class="line">public OuterClass();</div><div class="line">  Code:</div><div class="line">   0:  aload_0</div><div class="line">   1:  invokespecial    #11; //Method java/lang/Object."&lt;init&gt;":()V</div><div class="line">   4:  aload_0</div><div class="line">   5:  ldc  #13; //String en</div><div class="line">   7:  putfield #15; //Field language:Ljava/lang/String;</div><div class="line">   10: aload_0</div><div class="line">   11: ldc  #17; //String US</div><div class="line">   13: putfield #19; //Field region:Ljava/lang/String;</div><div class="line">   16: return</div><div class="line"></div><div class="line"></div><div class="line">public static void main(java.lang.String[]);</div><div class="line">  Code:</div><div class="line">   0:  new  #1; //class OuterClass</div><div class="line">   3:  dup</div><div class="line">   4:  invokespecial    #27; //Method "&lt;init&gt;":()V</div><div class="line">   7:  astore_1</div><div class="line">   8:  new  #28; //class OuterClass$InnerClass</div><div class="line">   11: dup</div><div class="line">   12: aload_1</div><div class="line">   13: dup</div><div class="line">   14: invokevirtual    #30; //Method java/lang/Object.getClass:()Ljava/lang/Class;</div><div class="line">   17: pop</div><div class="line">   18: invokespecial    #34; //Method OuterClass$InnerClass."&lt;init&gt;":(LOuterClass;)V</div><div class="line">   21: astore_2</div><div class="line">   22: aload_2</div><div class="line">   23: invokevirtual    #37; //Method OuterClass$InnerClass.printOuterClassPrivateFields:()V</div><div class="line">   26: return</div><div class="line"></div><div class="line">static java.lang.String access$0(OuterClass);</div><div class="line">  Code:</div><div class="line">   0:  aload_0</div><div class="line">   1:  getfield #15; //Field language:Ljava/lang/String;</div><div class="line">   4:  areturn</div><div class="line"></div><div class="line">static java.lang.String access$1(OuterClass);</div><div class="line">  Code:</div><div class="line">   0:  aload_0</div><div class="line">   1:  getfield #19; //Field region:Ljava/lang/String;</div><div class="line">   4:  areturn</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>咦？不对，在OuterClass中我们并没有定义这两个方法</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">static java.lang.String access$0(OuterClass);</div><div class="line">  Code:</div><div class="line">   0:  aload_0</div><div class="line">   1:  getfield #15; //Field language:Ljava/lang/String;</div><div class="line">   4:  areturn</div><div class="line"></div><div class="line">static java.lang.String access$1(OuterClass);</div><div class="line">  Code:</div><div class="line">   0:  aload_0</div><div class="line">   1:  getfield #19; //Field region:Ljava/lang/String;</div><div class="line">   4:  areturn</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>从给出来的注释来看，access$0返回outerClass的language属性；access$1返回outerClass的region属性。并且这两个方法都接受OuterClass的实例作为参数。这两个方法为什么生成呢，有什么作用呢？我们看一下内部类的反编译结果就知道了。</p>
+<h3 id="OuterClass-InnerClass的反编译结果"><a href="#OuterClass-InnerClass的反编译结果" class="headerlink" title="OuterClass$InnerClass的反编译结果"></a>OuterClass$InnerClass的反编译结果</h3><p>代码如下:<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div></pre></td><td class="code"><pre><div class="line">15:37 $ javap -c OuterClass\$InnerClass</div><div class="line">Compiled from "OuterClass.java"</div><div class="line">public class OuterClass$InnerClass extends java.lang.Object&#123;</div><div class="line">final OuterClass this$0;</div><div class="line"></div><div class="line"></div><div class="line">public OuterClass$InnerClass(OuterClass);</div><div class="line">  Code:</div><div class="line">   0:  aload_0</div><div class="line">   1:  aload_1</div><div class="line">   2:  putfield #10; //Field this$0:LOuterClass;</div><div class="line">   5:  aload_0</div><div class="line">   6:  invokespecial    #12; //Method java/lang/Object."&lt;init&gt;":()V</div><div class="line">   9:  return</div><div class="line"></div><div class="line">public void printOuterClassPrivateFields();</div><div class="line">  Code:</div><div class="line">   0:  new  #20; //class java/lang/StringBuilder</div><div class="line">   3:  dup</div><div class="line">   4:  ldc  #22; //String language=</div><div class="line">   6:  invokespecial    #24; //Method java/lang/StringBuilder."&lt;init&gt;":(Ljava/lang/String;)V</div><div class="line">   9:  aload_0</div><div class="line">   10: getfield #10; //Field this$0:LOuterClass;</div><div class="line">   13: invokestatic #27; //Method OuterClass.access$0:(LOuterClass;)Ljava/lang/String;</div><div class="line">   16: invokevirtual    #33; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;</div><div class="line">   19: ldc  #37; //String ;region=</div><div class="line">   21: invokevirtual    #33; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;</div><div class="line">   24: aload_0</div><div class="line">   25: getfield #10; //Field this$0:LOuterClass;</div><div class="line">   28: invokestatic #39; //Method OuterClass.access$1:(LOuterClass;)Ljava/lang/String;</div><div class="line">   31: invokevirtual    #33; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;</div><div class="line">   34: invokevirtual    #42; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;</div><div class="line">   37: astore_1</div><div class="line">   38: getstatic    #46; //Field java/lang/System.out:Ljava/io/PrintStream;</div><div class="line">   41: aload_1</div><div class="line">   42: invokevirtual    #52; //Method java/io/PrintStream.println:(Ljava/lang/String;)V</div><div class="line">   45: return</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>下面代码调用access$0的代码,其目的是得到OuterClass的language 私有属性。<br>复制代码代码如下:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">13:   invokestatic #27; //Method OuterClass.access$0:(LOuterClass;)Ljava/lang/String;</div></pre></td></tr></table></figure>
+<p>下面代码调用了access$1的代码，其目的是得到OutherClass的region 私有属性。<br>复制代码代码如下:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">28:   invokestatic #39; //Method OuterClass.access$1:(LOuterClass;)Ljava/lang/String;</div></pre></td></tr></table></figure>
+<p>注意：在内部类构造的时候，会将外部类的引用传递进来，并且作为内部类的一个属性，所以内部类会持有一个其外部类的引用。</p>
+<p>this$0就是内部类持有的外部类引用，通过构造方法传递引用并赋值。</p>
+<p>复制代码代码如下:<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">final OuterClass this$0;</div><div class="line"></div><div class="line"></div><div class="line">public OuterClass$InnerClass(OuterClass);</div><div class="line">  Code:</div><div class="line">   0:  aload_0</div><div class="line">   1:  aload_1</div><div class="line">   2:  putfield #10; //Field this$0:LOuterClass;</div><div class="line">   5:  aload_0</div><div class="line">   6:  invokespecial    #12; //Method java/lang/Object."&lt;init&gt;":()V</div><div class="line">   9:  return</div></pre></td></tr></table></figure></p>
+<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>这部分private看上去失效可，实际上并没有失效，因为当内部类调用外部类的私有属性时，其真正的执行是调用了编译器生成的属性的静态方法（即acess$0,access$1等）来获取这些属性值。这一切都是编译器的特殊处理。</p>
+<h3 id="这次也失效？"><a href="#这次也失效？" class="headerlink" title="这次也失效？"></a>这次也失效？</h3><p>如果说上面的写法很常用，那么这样的写法是不是很少接触，但是却可以运行。<br>代码如下:<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">AnotherOuterClass</span> </span>&#123;</div><div class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</div><div class="line">      InnerClass inner = <span class="keyword">new</span> AnotherOuterClass().new InnerClass();</div><div class="line">      System.out.println(<span class="string">"InnerClass Filed = "</span> + inner.x);</div><div class="line">  &#125;</div><div class="line"></div><div class="line"></div><div class="line">  <span class="class"><span class="keyword">class</span> <span class="title">InnerClass</span> </span>&#123;</div><div class="line">      <span class="keyword">private</span> <span class="keyword">int</span> x = <span class="number">10</span>;</div><div class="line">  &#125;</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>和上面一样，使用javap反编译看一下。不过这次我们先看一下InnerClass的结果<br>代码如下:<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">$ javap -c AnotherOuterClass\$InnerClass</div><div class="line">Compiled from "AnotherOuterClass.java"</div><div class="line">class AnotherOuterClass$InnerClass extends java.lang.Object&#123;</div><div class="line">final AnotherOuterClass this$0;</div><div class="line"></div><div class="line"></div><div class="line">AnotherOuterClass$InnerClass(AnotherOuterClass);</div><div class="line">  Code:</div><div class="line">   0:  aload_0</div><div class="line">   1:  aload_1</div><div class="line">   2:  putfield #12; //Field this$0:LAnotherOuterClass;</div><div class="line">   5:  aload_0</div><div class="line">   6:  invokespecial    #14; //Method java/lang/Object."&lt;init&gt;":()V</div><div class="line">   9:  aload_0</div><div class="line">   10: bipush   10</div><div class="line">   12: putfield #17; //Field x:I</div><div class="line">   15: return</div><div class="line"></div><div class="line">static int access$0(AnotherOuterClass$InnerClass);</div><div class="line">  Code:</div><div class="line">   0:  aload_0</div><div class="line">   1:  getfield #17; //Field x:I</div><div class="line">   4:  ireturn</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>AnotherOuterClass.class的反编译结果</p>
+<p>代码如下:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div></pre></td><td class="code"><pre><div class="line">$ javap -c AnotherOuterClass</div><div class="line">Compiled from "AnotherOuterClass.java"</div><div class="line">public class AnotherOuterClass extends java.lang.Object&#123;</div><div class="line">public AnotherOuterClass();</div><div class="line">  Code:</div><div class="line">   0:  aload_0</div><div class="line">   1:  invokespecial    #8; //Method java/lang/Object."&lt;init&gt;":()V</div><div class="line">   4:  return</div><div class="line"></div><div class="line"></div><div class="line">public static void main(java.lang.String[]);</div><div class="line">  Code:</div><div class="line">   0:  new  #16; //class AnotherOuterClass$InnerClass</div><div class="line">   3:  dup</div><div class="line">   4:  new  #1; //class AnotherOuterClass</div><div class="line">   7:  dup</div><div class="line">   8:  invokespecial    #18; //Method "&lt;init&gt;":()V</div><div class="line">   11: dup</div><div class="line">   12: invokevirtual    #19; //Method java/lang/Object.getClass:()Ljava/lang/Class;</div><div class="line">   15: pop</div><div class="line">   16: invokespecial    #23; //Method AnotherOuterClass$InnerClass."&lt;init&gt;":(LAnotherOuterClass;)V</div><div class="line">   19: astore_1</div><div class="line">   20: getstatic    #26; //Field java/lang/System.out:Ljava/io/PrintStream;</div><div class="line">   23: new  #32; //class java/lang/StringBuilder</div><div class="line">   26: dup</div><div class="line">   27: ldc  #34; //String InnerClass Filed =</div><div class="line">   29: invokespecial    #36; //Method java/lang/StringBuilder."&lt;init&gt;":(Ljava/lang/String;)V</div><div class="line">   32: aload_1</div><div class="line">   33: invokestatic #39; //Method AnotherOuterClass$InnerClass.access$0:(LAnotherOuterClass$InnerClass;)I</div><div class="line">   36: invokevirtual    #43; //Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;</div><div class="line">   39: invokevirtual    #47; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;</div><div class="line">   42: invokevirtual    #51; //Method java/io/PrintStream.println:(Ljava/lang/String;)V</div><div class="line">   45: return</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>其中这句调用就是外部类通过内部类的实例获取私有属性x的操作<br>代码如下:<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">33:   invokestatic #39; //Method AnotherOuterClass$InnerClass.access$0:(LAnotherOuterClass$InnerClass;)I</div></pre></td></tr></table></figure></p>
+<h3 id="再来个总结"><a href="#再来个总结" class="headerlink" title="再来个总结"></a>再来个总结</h3><p>其中java官方文档 有这样一句话</p>
+<pre><code>if the member or constructor is declared private, then access is permitted if and only if it occurs within the body of the top level class (§7.6) that encloses the declaration of the member or constructor.
+意思是 如果（内部类的）成员和构造方法设定成了私有修饰符，当且仅当其外部类访问时是允许的。
+</code></pre><h3 id="如何让内部类私有成员不被外部访问"><a href="#如何让内部类私有成员不被外部访问" class="headerlink" title="如何让内部类私有成员不被外部访问"></a>如何让内部类私有成员不被外部访问</h3><p>相信看完上面两部分，你会觉得，内部类的私有成员想不被外部类访问都很困难吧，谁让编译器“爱管闲事”呢，其实也是可以做到的。那就是使用匿名内部类。</p>
+<p>由于mRunnable对象的类型为Runnable，而不是匿名内部类的类型（我们无法正常拿到），而Runanble中没有x这个属性，所以mRunnable.x是不被允许的。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">PrivateToOuter</span> </span>&#123;</div><div class="line">  Runnable mRunnable = <span class="keyword">new</span> Runnable()&#123;</div><div class="line">      <span class="keyword">private</span> <span class="keyword">int</span> x=<span class="number">10</span>;</div><div class="line">      <span class="meta">@Override</span></div><div class="line">      <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">run</span><span class="params">()</span> </span>&#123;</div><div class="line">          System.out.println(x);</div><div class="line">      &#125;</div><div class="line">  &#125;;</div><div class="line"></div><div class="line"></div><div class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</div><div class="line">      PrivateToOuter p = <span class="keyword">new</span> PrivateToOuter();</div><div class="line">      <span class="comment">//System.out.println("anonymous class private filed= "+ p.mRunnable.x); //not allowed</span></div><div class="line">      p.mRunnable.run(); <span class="comment">// allowed</span></div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="最后总结"><a href="#最后总结" class="headerlink" title="最后总结"></a>最后总结</h3><p>在本文中，private表面上看上去失效了，但实际上是没有的，而是在调用时通过间接的方法来获取私有的属性。<br>Java的内部类构造时持有对外部类的应用，C++不会，这一点和C++不一样。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+  
+  <div class="categories">
+    <a href="/categories/java技术/">java技术</a>
+  </div>
+
+        
+  
+  <div class="tags">
+    <a href="/tags/java技术/">java技术</a>
+  </div>
+
+<!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<span class="bds_more"></span>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=3326447" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+ <nav id="pagination" >
+    
+    <a href="/2016/05/08/个人日记/" class="alignleft prev" >上一页</a>
+    
+    
+    <a href="/2016/05/08/java技术/" class="alignright next" >下一页</a>
+    
+    <div class="clearfix"></div>
+</nav>
+
+
+
+<section id="comment">
+
+<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"orochi"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->  
+
+  
+</section>
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:www.orochi.cc">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">分类</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/java技术/">java技术</a><small>3</small></li>
+  
+    <li><a href="/categories/jsp/">jsp</a><small>1</small></li>
+  
+    <li><a href="/categories/music/">music</a><small>3</small></li>
+  
+    <li><a href="/categories/python/">python</a><small>1</small></li>
+  
+    <li><a href="/categories/spring-maven/">spring maven</a><small>1</small></li>
+  
+    <li><a href="/categories/zookeeper/">zookeeper</a><small>6</small></li>
+  
+    <li><a href="/categories/个人日记/">个人日记</a><small>1</small></li>
+  
+    <li><a href="/categories/技术总结/">技术总结</a><small>4</small></li>
+  
+  </ul>
+</div>
+
+
+  <div class="widget tag">
+<h3 class="title">简介</h3>
+<ul class="entry">
+<li>本体：钊文磊</li>
+<li>现状：帝都java攻城狮</li>
+<li>Theme: <a href="https://github.com/zhaowenlei/lightum">Lightum</a>
+<li>想交友的朋友请<a href="http://zipperary.com/about">联系我</a>！</li>
+<li>QQ 号：496945276</li>
+<font color="red">Hexo 交流群：287306637</font>
+</ul>
+</div>
+
+
+
+  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=1&ptype=0&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=2421828583&verifier=34ccaeb5&dpc=1"></iframe>
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><section>
+Theme of <a href="https://github.com/zippera/lightum">Lightum</a>, Improved from <a href="https://github.com/hexojs/hexo-theme-light">Light</a>, by <a href="/">zhaowenlei</a>
+</section>
+<div class="clearfix"></div>
+</footer>
+  <script src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</body>
+</html>
+
+
+<a href="https://github.com/zhaowenlei" target="_blank"><img style="position: absolute; top: 0; left: 0; border: 0;" src="/imgs/forkme_left_green_007200.png" alt="Fork me on GitHub"></a>

@@ -1,0 +1,456 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Fabric入门 | orochi</title>
+  <meta name="author" content="zhaowenlei">
+  
+  <meta name="description" content="技术整理归档">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="Fabric入门"/>
+  <meta property="og:site_name" content="orochi"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.ico" rel="icon" type="image/x-ico">
+  <link rel="alternate" href="http://zipperary.com/atom.xml" title="orochi" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <script src="//libs.baidu.com/jquery/1.8.0/jquery.min.js"></script>
+</head>
+
+
+<body>
+  <header id="header" class="inner">
+<div class="alignleft">
+  <h1><a href="/">orochi</a></h1>
+  <h2><a href="/">I&#39;m a 博客</a></h2>
+</div>
+<nav id="main-nav" class="alignright">
+  <ul>
+    
+      <li><a href="/">首页</a></li>
+    
+      <li><a href="/archives">归档</a></li>
+    
+      <li><a href="/about">关于</a></li>
+    
+      <li><a href="/tools">工具</a></li>
+    
+	<li> <a href="/atom.xml">RSS</a> </li>
+<li> <a title="把这个链接拖到你的Chrome收藏夹工具栏中" href='javascript:(function() {
+	function c() {
+		var e = document.createElement("link");
+		e.setAttribute("type", "text/css");
+		e.setAttribute("rel", "stylesheet");
+		e.setAttribute("href", f);
+		e.setAttribute("class", l);
+		document.body.appendChild(e)
+	}
+ 
+	function h() {
+		var e = document.getElementsByClassName(l);
+		for (var t = 0; t < e.length; t++) {
+			document.body.removeChild(e[t])
+		}
+	}
+ 
+	function p() {
+		var e = document.createElement("div");
+		e.setAttribute("class", a);
+		document.body.appendChild(e);
+		setTimeout(function() {
+			document.body.removeChild(e)
+		}, 100)
+	}
+ 
+	function d(e) {
+		return {
+			height : e.offsetHeight,
+			width : e.offsetWidth
+		}
+	}
+ 
+	function v(i) {
+		var s = d(i);
+		return s.height > e && s.height < n && s.width > t && s.width < r
+	}
+ 
+	function m(e) {
+		var t = e;
+		var n = 0;
+		while (!!t) {
+			n += t.offsetTop;
+			t = t.offsetParent
+		}
+		return n
+	}
+ 
+	function g() {
+		var e = document.documentElement;
+		if (!!window.innerWidth) {
+			return window.innerHeight
+		} else if (e && !isNaN(e.clientHeight)) {
+			return e.clientHeight
+		}
+		return 0
+	}
+ 
+	function y() {
+		if (window.pageYOffset) {
+			return window.pageYOffset
+		}
+		return Math.max(document.documentElement.scrollTop, document.body.scrollTop)
+	}
+ 
+	function E(e) {
+		var t = m(e);
+		return t >= w && t <= b + w
+	}
+ 
+	function S() {
+		var e = document.createElement("audio");
+		e.setAttribute("class", l);
+		e.src = i;
+		e.loop = false;
+		e.addEventListener("canplay", function() {
+			setTimeout(function() {
+				x(k)
+			}, 500);
+			setTimeout(function() {
+				N();
+				p();
+				for (var e = 0; e < O.length; e++) {
+					T(O[e])
+				}
+			}, 15500)
+		}, true);
+		e.addEventListener("ended", function() {
+			N();
+			h()
+		}, true);
+		e.innerHTML = " <p>If you are reading this, it is because your browser does not support the audio element. We recommend that you get a new browser.</p> <p>";
+		document.body.appendChild(e);
+		e.play()
+	}
+ 
+	function x(e) {
+		e.className += " " + s + " " + o
+	}
+ 
+	function T(e) {
+		e.className += " " + s + " " + u[Math.floor(Math.random() * u.length)]
+	}
+ 
+	function N() {
+		var e = document.getElementsByClassName(s);
+		var t = new RegExp("\\b" + s + "\\b");
+		for (var n = 0; n < e.length; ) {
+			e[n].className = e[n].className.replace(t, "")
+		}
+	}
+ 
+	var e = 30;
+	var t = 30;
+	var n = 350;
+	var r = 350;
+	var i = "//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake.mp3";
+	var s = "mw-harlem_shake_me";
+	var o = "im_first";
+	var u = ["im_drunk", "im_baked", "im_trippin", "im_blown"];
+	var a = "mw-strobe_light";
+	var f = "//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css";
+	var l = "mw_added_css";
+	var b = g();
+	var w = y();
+	var C = document.getElementsByTagName("*");
+	var k = null;
+	for (var L = 0; L < C.length; L++) {
+		var A = C[L];
+		if (v(A)) {
+			if (E(A)) {
+				k = A;
+				break
+			}
+		}
+	}
+	if (A === null) {
+		console.warn("Could not find a node of the right size. Please try a different page.");
+		return
+	}
+	c();
+	S();
+	var O = [];
+	for (var L = 0; L < C.length; L++) {
+		var A = C[L];
+		if (v(A)) {
+			O.push(A)
+		}
+	}
+})()    '>High一下</a> </li>
+
+  </ul>
+  <div class="clearfix"></div>
+</nav>
+<div class="clearfix"></div></header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      <img src="">
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon"></div>
+        <time datetime="2016-05-22T04:20:38.000Z"><a href="/2016/05/22/Fabric入门/">2016-05-22</a></time>
+      
+      
+  
+    <h1 class="title">Fabric入门</h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Fabric是一个用Python写的SSH连接工具，可用于应用开发、部署和系统管理。</p>
+<p>我的项目需要使用SSH远程登录到服务器中执行某个命令，可以使用Fabric实现整个流程。但我只需要在一台服务器上执行命令，使用Fabric有些浪费，完全可以使用更轻的框架。好在Fabric很容易上手，就暂定用它执行命令。</p>
+<p>以下内容来自Fabric的官方文档<a href="http://docs.fabfile.org/en/latest/tutorial.html" target="_blank" rel="external">《Overview and Tutorial》</a></p>
+<h2 id="什么是Fabric"><a href="#什么是Fabric" class="headerlink" title="什么是Fabric"></a>什么是Fabric</h2><p>Fabric提供一套SSH组件，包括Python库和命令行工具，用于应用开发和系统管理。简单说，Fabric有下面两种工具：</p>
+<p>通过命令行远程执行Python函数<br>使用Python函数通过ssh远程执行shell命令</p>
+<h2 id="Hello-fab"><a href="#Hello-fab" class="headerlink" title="Hello, fab"></a>Hello, fab</h2><p>创建一个fabfile.py文件</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello</span><span class="params">()</span>:</span></div><div class="line">    print(<span class="string">"Hello world!"</span>)</div></pre></td></tr></table></figure>
+<p>在命令行中使用fab命令运行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab hello</div><div class="line">Hello world!</div><div class="line">Done.</div><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab hello</div><div class="line">Hello world!</div><div class="line"></div><div class="line">Done.</div></pre></td></tr></table></figure>
+<h2 id="任务参数"><a href="#任务参数" class="headerlink" title="任务参数"></a>任务参数</h2><p>为上面函数添加参数</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello</span><span class="params">(name=<span class="string">"world"</span>)</span>:</span></div><div class="line">    print(<span class="string">"Hello %s!"</span> % name</div></pre></td></tr></table></figure>
+<p>运行，参数格式 :,=,….<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab hello:name=windroc</div><div class="line">Hello windroc!</div><div class="line">Done.</div><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab hello:name=windroc</div><div class="line">Hello windroc!</div><div class="line">Done.</div></pre></td></tr></table></figure></p>
+<p>下面方式具有同样效果<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab hello:windroc</div><div class="line">Hello windroc!</div><div class="line"></div><div class="line">Done.</div><div class="line"></div><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab hello:windroc</div><div class="line">Hello windroc!</div><div class="line"></div><div class="line">Done.</div></pre></td></tr></table></figure></p>
+<p>本地命令<br>使用 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">fabfile.py</div><div class="line">```python</div><div class="line">from fabric.api import local</div><div class="line"></div><div class="line">def prepare_deploy():</div><div class="line">    local(&quot;date&quot;)</div><div class="line">    local(&quot;who&quot;)</div><div class="line">    local(&quot;uname -a&quot;)</div></pre></td></tr></table></figure></p>
+<p>运行结果如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab prepare_deploy</div><div class="line">[localhost] local: date</div><div class="line">2015年 02月 15日 星期日 07:03:46 UTC</div><div class="line">[localhost] local: who</div><div class="line">vagrant  pts/0        2015-02-15 01:15 (10.0.2.2)</div><div class="line">vagrant  pts/1        2015-02-11 12:03 (10.0.2.2)</div><div class="line">vagrant  pts/2        2015-02-14 13:11 (10.0.2.2)</div><div class="line">vagrant  pts/4        2015-02-14 13:16 (10.0.2.2)</div><div class="line">vagrant  pts/5        2015-02-15 02:56 (10.0.2.2)</div><div class="line">[localhost] local: uname -a</div><div class="line">Linux precise64 3.8.0-44-generic #66~precise1-Ubuntu SMP Tue Jul 15 04:01:04 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux</div><div class="line"> </div><div class="line">Done.</div></pre></td></tr></table></figure></p>
+<h2 id="组织fabfile"><a href="#组织fabfile" class="headerlink" title="组织fabfile"></a>组织fabfile</h2><p>比如分成多个子任务<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> fabric.api <span class="keyword">import</span> local</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_date</span><span class="params">()</span>:</span></div><div class="line">    local(<span class="string">"date"</span>)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_who</span><span class="params">()</span>:</span></div><div class="line">    local(<span class="string">"who"</span>)</div><div class="line"></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_uname</span><span class="params">()</span>:</span></div><div class="line">    local(<span class="string">"uname -a"</span>)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">prepare_deploy</span><span class="params">()</span>:</span></div><div class="line">    print_date()</div><div class="line">    print_who()</div><div class="line">    print_uname()</div></pre></td></tr></table></figure></p>
+<p>输出与之前一样</p>
+<h2 id="故障"><a href="#故障" class="headerlink" title="故障"></a>故障</h2><p>Fabirc检查命令操作的返回值，如果没有正常退出则终止。</p>
+<p>在fabfile.py中加入一个肯定会出错的命令。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> fabric.api <span class="keyword">import</span> local</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_date</span><span class="params">()</span>:</span></div><div class="line">    local(<span class="string">"date"</span>)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_who</span><span class="params">()</span>:</span></div><div class="line">    local(<span class="string">"who"</span>)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_uname</span><span class="params">()</span>:</span></div><div class="line">    local(<span class="string">"uname -a"</span>)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">error_task</span><span class="params">()</span>:</span></div><div class="line">    local(<span class="string">"asdagasdg"</span>)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">prepare_deploy</span><span class="params">()</span>:</span></div><div class="line">    print_date()</div><div class="line">    print_who()</div><div class="line">    error_task()</div><div class="line">    print_uname()</div></pre></td></tr></table></figure></p>
+<p>运行出错<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab prepare_deploy</div><div class="line">[localhost] local: date</div><div class="line">2015年 02月 15日 星期日 07:06:55 UTC</div><div class="line">[localhost] local: who</div><div class="line">vagrant  pts/0        2015-02-15 01:15 (10.0.2.2)</div><div class="line">vagrant  pts/1        2015-02-11 12:03 (10.0.2.2)</div><div class="line">vagrant  pts/2        2015-02-14 13:11 (10.0.2.2)</div><div class="line">vagrant  pts/4        2015-02-14 13:16 (10.0.2.2)</div><div class="line">vagrant  pts/5        2015-02-15 02:56 (10.0.2.2)</div><div class="line">[localhost] local: asdagasdg</div><div class="line">/bin/sh: 1: asdagasdg: not found</div><div class="line"> </div><div class="line">Fatal error: local() encountered an error (return code 127) while executing &apos;asdagasdg&apos;</div><div class="line"> </div><div class="line">Aborting.</div><div class="line">local() encountered an error (return code 127) while executing &apos;asdagasdg&apos;</div></pre></td></tr></table></figure></p>
+<p>可以看到，运行出错后，不再运行后续任务</p>
+<h2 id="故障处理"><a href="#故障处理" class="headerlink" title="故障处理"></a>故障处理</h2><p>环境变量warn_only，可以将abort转为warning，并提供灵活的处理方式</p>
+<p>fabfile</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> fabric.api <span class="keyword">import</span> local, settings, abort</div><div class="line"><span class="keyword">from</span> fabric.contrib.console <span class="keyword">import</span> confirm</div><div class="line"> </div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_date</span><span class="params">()</span>:</span></div><div class="line">    local(<span class="string">"date"</span>)</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_who</span><span class="params">()</span>:</span></div><div class="line">    local(<span class="string">"who"</span>)</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_uname</span><span class="params">()</span>:</span></div><div class="line">    local(<span class="string">"uname -a"</span>)</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">error_task</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">with</span> settings(warn_only=<span class="keyword">True</span>):</div><div class="line">        result = local(<span class="string">"asdagasdg"</span>)</div><div class="line">    <span class="keyword">if</span> result.failed <span class="keyword">and</span> <span class="keyword">not</span> confirm(<span class="string">"Test failed. Continue anyway?"</span>):</div><div class="line">        abort(<span class="string">"Aborting at user request"</span>)</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">prepare_deploy</span><span class="params">()</span>:</span></div><div class="line">    print_date()</div><div class="line">    print_who()</div><div class="line">    error_task()</div><div class="line">    print_uname()</div></pre></td></tr></table></figure>
+<p>出错时，会根据用户输入决定是否运行后面的程序</p>
+<p>运行<br>vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab prepare_deploy<br>[localhost] local: date<br>2015年 02月 15日 星期日 07:10:39 UTC<br>[localhost] local: who<br>vagrant pts/0 2015-02-15 01:15 (10.0.2.2)<br>vagrant pts/1 2015-02-11 12:03 (10.0.2.2)<br>vagrant pts/2 2015-02-14 13:11 (10.0.2.2)<br>vagrant pts/4 2015-02-14 13:16 (10.0.2.2)<br>vagrant pts/5 2015-02-15 02:56 (10.0.2.2)<br>[localhost] local: asdagasdg<br>/bin/sh: 1: asdagasdg: not found</p>
+<p>Warning: local() encountered an error (return code 127) while executing ‘asdagasdg’</p>
+<p>Test failed. Continue anyway? [Y/n] Y<br>[localhost] local: uname -a<br>Linux precise64 3.8.0-44-generic #66~precise1-Ubuntu SMP Tue Jul 15 04:01:04 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux</p>
+<p>Done.</p>
+<h2 id="建立连接"><a href="#建立连接" class="headerlink" title="建立连接"></a>建立连接</h2><p>Fabric最强大的功能，通过SSH远程执行任务</p>
+<p>修改任务</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">print_ls</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">with</span> cd(<span class="string">'/var/log'</span>):</div><div class="line">        run(<span class="string">"ls"</span>)</div></pre></td></tr></table></figure>
+<p>执行任务，会提示输入host，使用ssh连接形式user@host:port<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab prepare_deploy</div><div class="line">No hosts found. Please specify (single) host string for connection: wangdp@uranus.hpc.nmic.cn</div><div class="line">[wangdp@uranus.hpc.nmic.cn] run: date</div><div class="line">[wangdp@uranus.hpc.nmic.cn] Passphrase for private key: </div><div class="line">[wangdp@uranus.hpc.nmic.cn] Login password for &apos;wangdp&apos;: </div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: welcome login</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: [YOU HAVE NEW MAIL]</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: Sun Feb 15 07:19:01 GMT 2015</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: </div><div class="line"> </div><div class="line">[wangdp@uranus.hpc.nmic.cn] run: who</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: welcome login</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: [YOU HAVE NEW MAIL]</div><div class="line">…</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: nwp_bj      pts/65      Feb 15 03:20     (localhost:24.0)</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: </div><div class="line"> </div><div class="line">[wangdp@uranus.hpc.nmic.cn] run: ls</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: welcome login</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: [YOU HAVE NEW MAIL]</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: aso       sudo.log  xcat</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: </div><div class="line"></div><div class="line"></div><div class="line">Done.</div><div class="line">Disconnecting from uranus.hpc.nmic.cn... done.</div></pre></td></tr></table></figure></p>
+<p>也可以在命令行中给出host。<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> fabric.api <span class="keyword">import</span> run</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">host_type</span><span class="params">()</span>:</span></div><div class="line">    run(<span class="string">"uname -s"</span>)</div></pre></td></tr></table></figure></p>
+<p>运行结果<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab -H localhost host_type</div><div class="line">[localhost] Executing task &apos;host_type&apos;</div><div class="line">[localhost] run: uname -s</div><div class="line">[localhost] Passphrase for private key: </div><div class="line">Sorry, you can&apos;t enter an empty password. Please try again.</div><div class="line">[localhost] Passphrase for private key: </div><div class="line">[localhost] Login password for &apos;vagrant&apos;: </div><div class="line">[localhost] out: Linux</div><div class="line">[localhost] out: </div><div class="line"> </div><div class="line"> </div><div class="line">Done.</div><div class="line">Disconnecting from localhost... done.</div></pre></td></tr></table></figure></p>
+<h2 id="远程交互"><a href="#远程交互" class="headerlink" title="远程交互"></a>远程交互</h2><p>Fabric可以与远端进行对话，看下面的例子</p>
+<p>fabfile.py<br><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">rm_file</span><span class="params">()</span>:</span></div><div class="line">    tmp_dir = <span class="string">"/cma/g3/wangdp/tmp"</span></div><div class="line"> </div><div class="line">    <span class="keyword">with</span> cd(tmp_dir):</div><div class="line">        run(<span class="string">"touch 1.txt"</span>)</div><div class="line">        run(<span class="string">"rm -i 1.txt"</span>)</div><div class="line"> </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">deploy</span><span class="params">()</span>:</span></div><div class="line">    rm_file()</div></pre></td></tr></table></figure></p>
+<p>运行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab deploy</div><div class="line">No hosts found. Please specify (single) host string for connection: wangdp@uranus.hpc.nmic.cn</div><div class="line">[wangdp@uranus.hpc.nmic.cn] run: touch 1.txt</div><div class="line">[wangdp@uranus.hpc.nmic.cn] Passphrase for private key: </div><div class="line">[wangdp@uranus.hpc.nmic.cn] Login password for &apos;wangdp&apos;: </div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: welcome login</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: [YOU HAVE NEW MAIL]</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: </div><div class="line"> </div><div class="line">[wangdp@uranus.hpc.nmic.cn] run: rm -i 1.txt</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: welcome login</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: [YOU HAVE NEW MAIL]</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: rm: remove 1.txt? y</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: </div><div class="line"> </div><div class="line"> </div><div class="line">Done.</div><div class="line">Disconnecting from uranus.hpc.nmic.cn... done.</div></pre></td></tr></table></figure></p>
+<p>提前定义连接<br>最常见的方法，设置env.hosts列表</p>
+<p>在fabfile模块头部设置env.hosts</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">env.hosts = [<span class="string">'wangdp@uranus.hpc.nmic.cn'</span>]</div></pre></td></tr></table></figure>
+<p>运行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">vagrant@precise64:/vagrant/sms_log_agent_monitor$ fab deploy</div><div class="line">[wangdp@uranus.hpc.nmic.cn] Executing task &apos;deploy&apos;</div><div class="line">[wangdp@uranus.hpc.nmic.cn] run: touch 1.txt</div><div class="line">[wangdp@uranus.hpc.nmic.cn] Passphrase for private key: </div><div class="line">[wangdp@uranus.hpc.nmic.cn] Login password for &apos;wangdp&apos;: </div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: welcome login</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: [YOU HAVE NEW MAIL]</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: </div><div class="line"> </div><div class="line">[wangdp@uranus.hpc.nmic.cn] run: rm -i 1.txt</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: welcome login</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: [YOU HAVE NEW MAIL]</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: rm: remove 1.txt? y</div><div class="line">[wangdp@uranus.hpc.nmic.cn] out: </div><div class="line"> </div><div class="line"> </div><div class="line">Done.</div><div class="line">Disconnecting from wangdp@uranus.hpc.nmic.cn... done.</div></pre></td></tr></table></figure></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本文介绍了Fabric的基本功能：</p>
+<p>定义任务，并用fab命令执行<br>使用local运行本地命令<br>使用settings修改环境变量<br>处理命令出错，提醒用户，手动中止<br>定义host列表，使用run远程执行命令。</p>
+
+      
+    </div>
+    <footer>
+      
+        
+  
+  <div class="categories">
+    <a href="/categories/技术总结/">技术总结</a>
+  </div>
+
+        
+  
+  <div class="tags">
+    <a href="/tags/技术总结/">技术总结</a>
+  </div>
+
+<!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
+<a class="bds_qzone"></a>
+<a class="bds_tsina"></a>
+<a class="bds_tqq"></a>
+<a class="bds_renren"></a>
+<a class="bds_t163"></a>
+<span class="bds_more"></span>
+<a class="shareCount"></a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=3326447" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+
+ <nav id="pagination" >
+    
+    <a href="/2017/03/26/zookeeper-02/" class="alignleft prev" >上一页</a>
+    
+    
+    <a href="/2016/05/17/MacOX上安装MongoDb/" class="alignright next" >下一页</a>
+    
+    <div class="clearfix"></div>
+</nav>
+
+
+
+<section id="comment">
+
+<!-- Duoshuo Comment BEGIN -->
+	<div class="ds-thread"></div>
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"orochi"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		|| document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- Duoshuo Comment END -->  
+
+  
+</section>
+
+</div></div>
+    <aside id="sidebar" class="alignright">
+  <div class="search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="搜索">
+    <input type="hidden" name="q" value="site:www.orochi.cc">
+  </form>
+</div>
+
+  
+<div class="widget tag">
+  <h3 class="title">分类</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/java技术/">java技术</a><small>3</small></li>
+  
+    <li><a href="/categories/jsp/">jsp</a><small>1</small></li>
+  
+    <li><a href="/categories/music/">music</a><small>3</small></li>
+  
+    <li><a href="/categories/python/">python</a><small>1</small></li>
+  
+    <li><a href="/categories/spring-maven/">spring maven</a><small>1</small></li>
+  
+    <li><a href="/categories/zookeeper/">zookeeper</a><small>6</small></li>
+  
+    <li><a href="/categories/个人日记/">个人日记</a><small>1</small></li>
+  
+    <li><a href="/categories/技术总结/">技术总结</a><small>4</small></li>
+  
+  </ul>
+</div>
+
+
+  <div class="widget tag">
+<h3 class="title">简介</h3>
+<ul class="entry">
+<li>本体：钊文磊</li>
+<li>现状：帝都java攻城狮</li>
+<li>Theme: <a href="https://github.com/zhaowenlei/lightum">Lightum</a>
+<li>想交友的朋友请<a href="http://zipperary.com/about">联系我</a>！</li>
+<li>QQ 号：496945276</li>
+<font color="red">Hexo 交流群：287306637</font>
+</ul>
+</div>
+
+
+
+  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=1&ptype=0&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=2421828583&verifier=34ccaeb5&dpc=1"></iframe>
+</aside>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer" class="inner"><section>
+Theme of <a href="https://github.com/zippera/lightum">Lightum</a>, Improved from <a href="https://github.com/hexojs/hexo-theme-light">Light</a>, by <a href="/">zhaowenlei</a>
+</section>
+<div class="clearfix"></div>
+</footer>
+  <script src="//libs.baidu.com/jquery/2.0.3/jquery.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+<!-- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</body>
+</html>
+
+
+<a href="https://github.com/zhaowenlei" target="_blank"><img style="position: absolute; top: 0; left: 0; border: 0;" src="/imgs/forkme_left_green_007200.png" alt="Fork me on GitHub"></a>
